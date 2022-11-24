@@ -8,6 +8,6 @@
     - name: Install Apache
       apt:
         name: apache2
-        state: present
+        state: absent
       become: yes
       become_user: root
